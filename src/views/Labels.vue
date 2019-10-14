@@ -67,7 +67,7 @@ export default {
     const getData = () => {
       archives.loading = true;
       const query = `query {
-          repository(owner: "ChenJiaH", name: "blog") {
+          repository(owner: "z1991817", name: "blog") {
             issues(filterBy: {labels: ${archives.label}}, orderBy: {field: CREATED_AT, direction: DESC}, labels: null, first: 10, after: ${archives.cursor}) {
               nodes {
                 title
@@ -99,7 +99,7 @@ export default {
     const getLabels = () => {
       context.root.$loading.show('努力为您查询');
       const query = `query {
-        repository(owner: "ChenJiaH", name: "blog") {
+        repository(owner: "z1991817", name: "blog") {
           labels(first: 100) {
             nodes {
               name

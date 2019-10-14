@@ -7,11 +7,11 @@ npm run build
 cd dist
 
 git init
-git config user.name 'McChen'
-git config user.email 'chenjiahao.xyz@gmail.com'
+git config user.name 'z1991817'
+git config user.email '377584613@qq.com'
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:ChenJiaH/blog.git master:gh-pages
+git push -f git@github.com:z1991817/blog.git master:gh-pages
 
 cd -

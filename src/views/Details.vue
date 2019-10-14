@@ -28,7 +28,7 @@ export default {
     const getData = () => {
       context.root.$loading.show('努力为您查询');
       const query = `query {
-          repository(owner: "ChenJiaH", name: "blog") {
+          repository(owner: "z1991817", name: "blog") {
             issue(number: ${id}) {
               title
               bodyHTML

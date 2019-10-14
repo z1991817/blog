@@ -58,7 +58,7 @@ export default {
     const getData = () => {
       archives.loading = true;
       const query = `query {
-          repository(owner: "ChenJiaH", name: "blog") {
+          repository(owner: "z1991817", name: "blog") {
             issues(orderBy: {field: CREATED_AT, direction: DESC}, labels: null, first: 10, after: ${archives.cursor}) {
               nodes {
                 title
