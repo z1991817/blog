@@ -12,6 +12,6 @@ git config user.email '377584613@qq.com'
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:z1991817/blog.git master:gh-pages
+git push -f git@github.com:z1991817.git master:gh-pages
 
 cd -
